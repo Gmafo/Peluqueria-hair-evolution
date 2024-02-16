@@ -1,0 +1,78 @@
+#producto{
+    width: 30%;
+    height: 300px;
+}
+header {
+    background-color: #ff92e1;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 148px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+  
+
+#cortes{
+    width: 80%;
+    height: 200px;
+}
+
+#peinados{
+    width: 80%;
+    height: 200px;
+}
+#tintura{
+    width: 80%;
+    height: 200px;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 7px dotted #000000;
+    border-radius: 20px;
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descripcion{
+    font-size: 20px;
+}
+.precio {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+h2{
+    color: #c90090;
+}
