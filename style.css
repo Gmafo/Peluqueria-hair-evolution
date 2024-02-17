@@ -1,9 +1,14 @@
-#productos {
+#producto{
     width: 30%;
     height: 300px;
 }
+
+#contacto{
+    background-color: rgb(254, 155, 238);
+    padding: 20px 0;
+}
 header {
-    background-color: rgb(240, 219, 224);
+    background-color: #ff92e1;
     padding: 20px 0;
 }
 
@@ -29,6 +34,7 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+
 }
 
 nav a:hover{
@@ -36,39 +42,104 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.principal{
-    background:  rgb(245, 225, 225);
+#cortes{
+    width: 80%;
+    height: 200px;
 }
 
-p {
-    text-align: center;font-size: 22px;
+#peinados{
+    width: 80%;
+    height: 200px;
 }
-
-#horario{
-    text-align: center;font-size: 22px;
-    border: 7px solid #000000 ;
-    padding: 20px;
-    margin: 80px;
+#tintura{
+    width: 80%;
+    height: 200px;
 }
-
-h1 {
-    font-size: 40px;text-align: center;
-    color: rgb(0, 0, 0);
-    border: 5px solid #000000 ;
-    padding: 20px;
-    margin: 80px;
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
-h2 {
+.productos li:hover h2{
+    font-size: 33px;
+}
+.productos li{
+    display: inline-block;
     text-align: center;
-    font-size: 38px;text-align: center;
-    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 7px dotted #000000;
+    border-radius: 20px;
 }
 
-.diferenciales{
-    background: #ffffff;
+.productos li:hover{  
+    border-color: hsl(64, 100%, 50%);
 }
 
-.items{
-    font-size: italic;
+.productos li:active{
+    border-color: rgb(255, 0, 0);
+    
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descripcion{
     font-size: 20px;
+}
+.precio {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+h2{
+    color: #c90090;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(240, 219, 224);
+    font-size: 35px;
+    padding: 20px;
+}
+#logo9{
+    height: 350px;
+    width: 30%;
+}
+#panda{
+    text-align: right;
+    font-size: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input, form textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+.boton{
+    font-size: 25px;
+    width: 30%;
+}
+p{
+    font-size: 28px;
 }

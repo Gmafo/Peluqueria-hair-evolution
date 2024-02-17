@@ -2,37 +2,78 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>productos - hair evolution</title>
+        <title>contacto - hair evolution</title>
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="contactos.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
+        <header id="contacto">
 
             <div class="caja">
 
                 <h1>
 
-                    <img src="fotos/logo3.jpg" id="productos">
+                    <img src="fotos/logo3.jpg" id="producto">
                 
                 </h1>
                     <nav>
                 <ul class="navegacion">
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="productos.html">productos</a></li>
-                    <li><a href="contactos.html">contactos</a></li>
-                </ul>
+                        <li><a href="index.html">home &#127968</a></li>
+                        <li><a href="productos.html">productos &#9988</a></li>
+                        <li><a href="contactos.html">contacto &#128241</a></li>
+                    </ul>
                     </nav>
 
             </div>
 
         </header>
+        <main>
+            <ul>
+                <form>
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido">
 
-        <ul class="Wyi">
-            <li><a href="http://wa.me/5389598">Whatsapp</a></li>
-            <li><a href="https://www.instagram.com/evolution.hair_lau.peluqueria?igsh=MWZpZWJ5aHdkMWtzZw==">instagram</a></li>
-        </ul>
+
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="text" id="correo">
+
+                    
+
+                    <label for="telefono">Telefono</label>
+                    <input type="text" id="telefono">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="70" rows="10" id="mensaje"></textarea>
+
+                    <div>
+
+                        <p>¿Cómo le gustaria que lo contactemos?</p>
+
+                        <label for="radio-email"><input type="radio" name="contacto" value="radio-email" id="radio-email">Email</label>
+                        
+
+                        <label for="radio-telefono"><input type="radio" name="contacto" value="radio-email" id="radio-telefono">Telefono</label>
+                        
+
+                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="radio-email" id="radio-whatsapp">Whatsapp</label>
+                        
 
 
+
+                        
+                        <label><input type="checkbox">Le gustaria recibir novedades sobre la peluqueria hair evolution?</label>
+
+                        <input type="submit" value="Enviar formulario" class="boton">
+
+                    </div>
+                </form>
+            </ul>
+        </main>
+        <footer>
+            <img src="fotos/logo.jpg" id="logo9">
+            <p>peluqueria Hair Evolution</p>
+            <p id="panda">&#128060</p>
+        </footer>
 
     </body>
+</html>
