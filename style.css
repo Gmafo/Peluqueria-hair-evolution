@@ -128,7 +128,7 @@ form label{
     font-size: 20px;
     margin: 0 0 10px;
 }
-form input, form textarea{
+.input-padron{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
@@ -139,7 +139,17 @@ form input, form textarea{
 .boton{
     font-size: 25px;
     width: 30%;
+    background: #fac458;
 }
 p{
     font-size: 28px;
+    margin: 15px 0;
+    color: rgb(0, 0, 0);
+}
+.checkbox{
+    margin: 19px 10px;
+}
+#option{
+    font-size: 20px;
+    background: #f0dbe0;
 }
