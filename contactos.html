@@ -31,19 +31,19 @@
             <ul>
                 <form>
                     <label for="nombreapellido">Nombre y Apellido</label>
-                    <input type="text" id="nombreapellido" class="input-padron">
+                    <input type="text" id="nombreapellido" class="input-padron" required placeholder="ej: pepito">
 
 
                     <label for="correo">Correo Electrónico</label>
-                    <input type="email" id="correo" class="input-padron">
+                    <input type="email" id="correo" class="input-padron"required placeholder="email@gmail.com">
 
                     
 
                     <label for="telefono">Telefono</label>
-                    <input type="tel" id="telefono" class="input-padron">
+                    <input type="tel" id="telefono" class="input-padron"required placeholder="(xx) xxx xxx">
 
                     <label for="mensaje">Mensaje</label>
-                    <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea></textarea>
+                    <textarea cols="70" rows="10" id="mensaje" class="input-padron"required placeholder="hola"></textarea></textarea>
 
                     <div>
 
@@ -55,10 +55,10 @@
                         <label for="radio-telefono"><input type="radio" name="contacto" value="radio-email" id="radio-telefono">Telefono</label>
                         
 
-                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="radio-email" id="radio-whatsapp">Whatsapp</label>
+                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="radio-email" id="radio-whatsapp" checked>Whatsapp</label>
                         
 
-                        <label><input type="checkbox" id="checkbox">Le gustaria recibir novedades sobre la peluqueria hair evolution?</label>
+                        <label><input type="checkbox" id="checkbox" checked>Le gustaria recibir novedades sobre la peluqueria hair evolution?</label>
 
 
                         <p>En que horario prefiere ser atendido?</p>
